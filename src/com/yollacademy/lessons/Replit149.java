@@ -13,15 +13,12 @@ public class Replit149 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int[] x = new int[3];
+        int[] x = new int[2];
         x[0] = input.nextInt();
         x[1] = input.nextInt();
-        x[2] = input.nextInt();
+        //x[2] = input.nextInt();
         int num = input.nextInt();
         add_to_r(x  ,num);
-
-
-
     }
 
 }
