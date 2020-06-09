@@ -3,30 +3,23 @@ package com.yollacademy.lessons;
 import java.util.Scanner;
 
 public class Replit168 {
-//    public static void main(String[] args) {
-//        Scanner input = new Scanner(System.in);
-//        System.out.println("Enter main:");
-//        String word = input.next();
-//        System.out.println("Enter coverMe:");
-//        String part = input.next();
-//
-//        System.out.println(coverString(word, part));
-//
-//    }
-//    public static String coverString(String word, String part){
-//        String result = "";
-//
-//        if (word.indexOf(part) == -1) {
-//            result += "[" + word + "]";
-//        }else{
-//            result +=
-//        }
-//
-//        while (word.contains(part)) {
-//            result += "[" + word.substring(0)
-//        }
-//
-//
-//        return result;
-//    }
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter main:");
+        String main = input.next();
+        System.out.println("Enter coverMe:");
+        String cover = input.next();
+
+        System.out.println(coverMe(main, cover));
+    }
+    public static String coverMe(String main, String cover) {
+        String result = "";
+        if (main.contains(cover)) {
+            result = main.replace(cover, "[" + cover + "]");
+        }else{
+            result = "[" + main + "]";
+        }
+        return result;
+    }
+
 }
