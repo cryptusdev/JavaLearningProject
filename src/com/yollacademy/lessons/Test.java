@@ -4,8 +4,11 @@ import java.util.Arrays;
 
 public class Test {
     public static void main(String[] args) {
-        String word = "OneTwoThree";
-        System.out.println(word.replace("One", ""));
+        int x;
+        for (x = 0; x <=100; x++) {
+            System.out.println(x);
+        }
     }
+
 }
 
