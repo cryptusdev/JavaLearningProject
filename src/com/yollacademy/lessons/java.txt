@@ -1,0 +1,3 @@
+ArrayList<String> arrayListName = new ArrayList<>();  // Declare array list
+(ArrayList<String> aL1, ArrayList<String> aL2)        // Passing ArrayList as a parameter for method
+aL1.addAll(aL2);                                      //ArrayList method to combine two ArrayList
